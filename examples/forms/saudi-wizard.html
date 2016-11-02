@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../../assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Paper Dashboard PRO by Creative Tim</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+     <!-- Bootstrap core CSS     -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--  Paper Dashboard core CSS    -->
+    <link href="../../assets/css/paper-dashboard.css" rel="stylesheet"/>
+
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="../../assets/css/demo.css" rel="stylesheet" />
+
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="../../assets/css/themify-icons.css" rel="stylesheet">
+</head>
+
+<style>
+
+
+.card-pricing {
+  text-align: center;
+}
+.card-pricing .card-title {
+  margin-top: 30px;
+}
+.card-pricing .content {
+  padding: 15px !important;
+}
+.card-pricing .icon {
+  padding: 10px 0 0px;
+  color: #999999;
+}
+.card-pricing .icon i {
+  font-size: 55px;
+  border: 1px solid #E5E5E5;
+  border-radius: 50%;
+  width: 130px;
+  line-height: 130px;
+  height: 130px;
+}
+.card-pricing h1 small {
+  font-size: 18px;
+}
+.card-pricing h1 small:first-child {
+  position: relative;
+  top: -17px;
+  font-size: 26px;
+}
+.card-pricing ul {
+  list-style: none;
+  padding: 0;
+  max-width: 240px;
+  margin: 10px auto;
+}
+.card-pricing ul li {
+  color: #999999;
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+}
+.card-pricing ul li:last-child {
+  border: 0;
+}
+.card-pricing ul li b {
+  color: #3C4858;
+}
+.card-pricing ul li i {
+  top: 6px;
+  position: relative;
+}
+.card-pricing.card-background ul li,
+.card-pricing [class*="content-"] ul li {
+  color: #FFFFFF;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.card-pricing.card-background ul li b,
+.card-pricing [class*="content-"] ul li b {
+  color: #FFFFFF;
+}
+.card-pricing.card-background [class*="text-"],
+.card-pricing [class*="content-"] [class*="text-"] {
+  color: #FFFFFF;
+}
+.card-pricing.card-background:after {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card-raised {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+a.text-info:hover, a.text-info:focus {
+  color: #00a5bb;
+}
+
+.text-info {
+  color: #00bcd4;
+}
+a.text-info:hover, a.text-info:focus {
+  color: #00a5bb;
+}
+
+</style>
+
+
+
+
+
+<body>
+	<div class="wrapper">
+	
+
+	   
+
+	        <div class="content">
+	            <div class="container-fluid">
+	                <div class="row">
+	                    <div class="col-md-8 col-md-offset-2">
+	                        <div class="card card-wizard" id="wizardCard">
+	                            <form id="wizardForm" method="" action="">
+		                            <div class="header text-center">
+		                                <h4 class="title">Become a member of Saudi Green Building Form</h4>
+		                                <p class="category">in three easy steps!</p>
+		                            </div>
+	            					<div class="content">
+		            				    <ul class="nav">
+		            						<li><a href="#tab1" data-toggle="tab">Information</a></li>
+		            						<li><a href="#tab2" data-toggle="tab">Type</a></li>
+		            						<li><a href="#tab3" data-toggle="tab">Payment</a></li>
+		    
+		            					</ul>
+		            					<div class="tab-content">
+		            					    <div class="tab-pane" id="tab1">
+		                                        <h5 class="text-center">Please tell us more about yourself.</h5>
+		                                        <div class="row">
+		                                            <div class="col-md-5 col-md-offset-1">
+		                                                <div class="form-group">
+		                                                    <label class="control-label">
+																First Name
+															</label>
+		                                                    <input class="form-control"
+		                                                           type="text"
+		                                                           name="first_name"
+		                                                           required="true"
+		                                                           placeholder="ex: Mike"
+															/>
+		                                                </div>
+		                                            </div>
+		                                            <div class="col-md-5">
+		                                                <div class="form-group">
+		                                                    <label class="control-label">
+																Last Name
+															</label>
+		                                                    <input class="form-control"
+		                                                           type="text"
+		                                                           name="last_name"
+		                                                           required="true"
+		                                                           placeholder="ex: Andrew"
+															/>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+
+		                                             <div class="row">
+		                                            <div class="col-md-10 col-md-offset-1">
+		                                                <div class="form-group">
+		                                                    <label class="control-label">
+																Organization
+															</label>
+		                                                    <input class="form-control"
+		                                                           type="text"
+		                                                           name="organization"
+		                                   						   required="true"
+		                                                           placeholder="ex: hello@creative-tim.com"
+															/>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+
+		                                        <div class="row">
+		                                            <div class="col-md-10 col-md-offset-1">
+		                                                <div class="form-group">
+		                                                    <label class="control-label">
+																Email<star>*</star>
+															</label>
+		                                                    <input class="form-control"
+		                                                           type="text"
+		                                                           name="email"
+		                                                           email="true"
+		                                                           placeholder="ex: hello@creative-tim.com"
+															/>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+
+		                                     
+		            					    </div>
+
+
+
+
+		            					<div class="tab-pane" id="tab2">
+		                                        
+
+		                            
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 text-center">
+						<h2>Pick the best plan for you</h2>
+						<h5>You have Free Unlimited Updates and Premium Support on each package.</h5>
+						<div class="section-space"></div>
+					</div>
+				</div>
+
+			<div class="row">
+
+				<div class="col-md-4">
+					<div class="card card-pricing">
+						<div class="content">
+							<h6 class="category">Individual</h6>
+							<h1 class="card-title"><small>$</small>99<small>/year</small></h1>
+							<ul>
+								<li><b>1</b> Project</li>
+								<li><b>10</b> Team Members</li>
+								<li><b>50</b> Personal Contacts</li>
+								<li><b>500</b> Messages</li>
+							</ul>
+							<a href="#pablo" class="btn btn-primary btn-round">
+								Get Started
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card card-pricing card-raised">
+						<div class="content">
+							<h6 class="category">Organizational</h6>
+							<h1 class="card-title"><small>$</small>199<small>/year</small></h1>
+							<ul>
+								<li><b>1000</b> Projects</li>
+								<li><b>100</b> Team Members</li>
+								<li><b>550</b> Personal Contacts</li>
+								<li><b>50.000</b> Messages</li>
+							</ul>
+							<a href="#pablo" class="btn btn-white btn-round">
+								Get Started
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+														</div>
+
+												
+
+
+
+
+
+
+
+		            					    <div class="tab-pane" id="tab3">
+		                                        <h5 class="text-center">Please choose your desired membership type</h5>
+		                                        <div class="row">
+		                                            <div class="col-md-10 col-md-offset-1">
+		                                                <div class="form-group">
+		                                                    <label class="control-label">Billing Name<star>*</star></label>
+		                                                    <input class="form-control"
+		                                                           type="text"
+		                                                           name="billing-name"
+		                                                           required="true"
+															/>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+		                                        <div class="row">
+		                                            <div class="col-md-5 col-md-offset-1">
+		                                                <div class="form-group">
+		                                                    <label class="control-label">Billing Email</label>
+		                                                    <input class="form-control"
+		                                                           type="text"
+		                                                           name="billing-email"
+		                                                           required="true"
+		                                                          
+															/>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+
+		                                         <div class="row">
+		                                            <div class="col-md-5 col-md-offset-1">
+		                                                <div class="form-group">
+		                                                    <label class="control-label">Card Number</label>
+		                                                    <input class="form-control"
+		                                                           type="text"
+		                                                           name="card-number"
+		                                                           required="true"
+		                                                          
+															/>
+		                                                </div>
+		                                            </div>
+		                                         </div>
+		                                            
+
+		                                          <div class="row">
+		                                            <div class="col-md-5 col-md-offset-1">
+		                                                <div class="form-group">
+		                                                    <label class="control-label">CCV</label>
+		                                                    <input class="form-control"
+		                                                           type="text"
+		                                                           name="ccv"
+		                                                           required="true"
+		                                                          
+															/>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+
+
+
+		                                          <div class="row">
+		                                            <div class="col-md-2 col-md-offset-1">
+		                                                <div class="form-group">
+		                                                    <label class="control-label">Expiration Month</label>
+		                                                    <input class="form-control"
+		                                                           type="text"
+		                                                           name="expiration-month"
+		                                                           required="true"
+		                                                          
+															/>
+		                                                </div>
+		                                            </div>
+		                                        
+
+
+		                                        
+		                                            <div class="col-md-2 col-md-offset-1">
+		                                                <div class="form-group">
+		                                                    <label class="control-label">Expiration Year</label>
+		                                                    <input class="form-control"
+		                                                           type="text"
+		                                                           name="expiration-year"
+		                                                           required="true"
+		                                                          
+															/>
+		                                                </div>
+		                                            </div>
+		                                        </div>
+		            					    </div>
+
+		            				
+		            					</div>
+	            					</div>
+		            				<div class="card-footer">
+		                                <button type="button" class="btn btn-default btn-fill btn-wd btn-back pull-left">Back</button>
+		                                <button type="button" class="btn btn-info btn-fill btn-wd btn-next pull-right">Next</button>
+		                                <button type="button" class="btn btn-info btn-fill btn-wd btn-finish pull-right" onclick="onFinishWizard()">Confirm</button>
+		                                <div class="clearfix"></div>
+		            				</div>
+	                        	</form>
+	                    	</div>
+	                	</div>
+	            	</div>
+	        	</div>
+	    	</div>
+
+			<footer class="footer">
+	           
+	        </footer>
+		</div>
+	</div>
+</body>
+
+	<!--   Core JS Files. Extra: PerfectScrollbar + TouchPunch libraries inside jquery-ui.min.js   -->
+	<script src="../../assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="../../assets/js/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="../../assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!--  Forms Validations Plugin -->
+	<script src="../../assets/js/jquery.validate.min.js"></script>
+
+	<!--  Plugin for Date Time Picker and Full Calendar Plugin-->
+	<script src="../../assets/js/moment.min.js"></script>
+
+	<!--  Date Time Picker Plugin is included in this js file -->
+	<script src="../../assets/js/bootstrap-datetimepicker.js"></script>
+
+	<!--  Select Picker Plugin -->
+	<script src="../../assets/js/bootstrap-selectpicker.js"></script>
+
+	<!--  Checkbox, Radio, Switch and Tags Input Plugins -->
+	<script src="../../assets/js/bootstrap-checkbox-radio-switch-tags.js"></script>
+
+	<!-- Circle Percentage-chart -->
+	<script src="../../assets/js/jquery.easypiechart.min.js"></script>
+
+	<!--  Charts Plugin -->
+	<script src="../../assets/js/chartist.min.js"></script>
+
+	<!--  Notifications Plugin    -->
+	<script src="../../assets/js/bootstrap-notify.js"></script>
+
+	<!-- Sweet Alert 2 plugin -->
+	<script src="../../assets/js/sweetalert2.js"></script>
+
+	<!-- Vector Map plugin -->
+	<script src="../../assets/js/jquery-jvectormap.js"></script>
+
+	<!--  Google Maps Plugin    -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+	<!-- Wizard Plugin    -->
+	<script src="../../assets/js/jquery.bootstrap.wizard.min.js"></script>
+
+	<!--  Bootstrap Table Plugin    -->
+	<script src="../../assets/js/bootstrap-table.js"></script>
+
+	<!--  Plugin for DataTables.net  -->
+	<script src="../../assets/js/jquery.datatables.js"></script>
+
+	<!--  Full Calendar Plugin    -->
+	<script src="../../assets/js/fullcalendar.min.js"></script>
+
+	<!-- Paper Dashboard PRO Core javascript and methods for Demo purpose -->
+	<script src="../../assets/js/paper-dashboard.js"></script>
+
+	<!-- Paper Dashboard PRO DEMO methods, don't include it in your project! -->
+	<script src="../../assets/js/demo.js"></script>
+
+	<script type="text/javascript">
+        $().ready(function(){
+
+            var $validator = $("#wizardForm").validate({
+    		  rules: {
+    		    email: {
+                    required: true,
+                    email: true,
+                    minlength: 5
+    		    },
+    		    first_name: {
+    		        required: false,
+                    minlength: 5
+    		    },
+    		    last_name: {
+    		        required: false,
+                    minlength: 5
+    		    },
+    		    website: {
+    		        required: true,
+                    minlength: 5,
+                    url: true
+    		    },
+    		    framework: {
+        		    required: false,
+        		    minlength: 4
+    		    },
+    		    cities: {
+        		    required: true
+    		    },
+    		    price:{
+        		    number: true
+    		    }
+    		  }
+    		});
+
+			// you can also use the nav-pills-[blue | azure | green | orange | red] for a different color of wizard
+            $('#wizardCard').bootstrapWizard({
+            	tabClass: 'nav nav-pills',
+            	nextSelector: '.btn-next',
+                previousSelector: '.btn-back',
+            	onNext: function(tab, navigation, index) {
+            		var $valid = $('#wizardForm').valid();
+
+            		if(!$valid) {
+            			$validator.focusInvalid();
+            			return false;
+            		}
+            	},
+                onInit : function(tab, navigation, index){
+
+                    //check number of tabs and fill the entire row
+                    var $total = navigation.find('li').length;
+                    $width = 100/$total;
+
+                    $display_width = $(document).width();
+
+                    if($display_width < 600 && $total > 3){
+                       $width = 50;
+                    }
+
+                    navigation.find('li').css('width',$width + '%');
+                },
+                onTabClick : function(tab, navigation, index){
+                    // Disable the posibility to click on tabs
+                    return false;
+                },
+                onTabShow: function(tab, navigation, index) {
+                    var $total = navigation.find('li').length;
+                    var $current = index+1;
+
+                    var wizard = navigation.closest('.card-wizard');
+
+                    // If it's the last tab then hide the last button and show the finish instead
+                    if($current >= $total) {
+                        $(wizard).find('.btn-next').hide();
+                        $(wizard).find('.btn-finish').show();
+                    } else if($current == 1){
+                        $(wizard).find('.btn-back').hide();
+                    } else {
+                        $(wizard).find('.btn-back').show();
+                        $(wizard).find('.btn-next').show();
+                        $(wizard).find('.btn-finish').hide();
+                    }
+                }
+            });
+        });
+
+        function onFinishWizard(){
+            //here you can do something, sent the form to server via ajax and show a success message with swal
+
+            swal("Confirmed!", "Welcome to the Saudi Green Building Forum", "success");
+        }
+	</script>
+
+</html>
