@@ -25,6 +25,48 @@
     <link href="../assets/css/themify-icons.css" rel="stylesheet">
 </head>
 
+<style>
+/* Profile  */
+
+.profile img.image-banner{
+    z-index: 0;
+    width: 100%;
+    max-height: 300px;
+    margin-bottom: 10px;
+
+    @media (max-width: 700px) {
+    max-height: 150px;
+  }
+}
+
+
+
+
+.profile-text h5 {
+    margin-left: 15px;
+    font-weight: 100;
+    font-size: 1.11em;
+    }
+
+
+.image-profile {
+    margin: -90px 20px 20px 60px;
+    z-index: 11;
+    width: 20%; 
+
+@media (max-width: 700px) {
+    margin: -45px 10px 0px 25px;
+    z-index: 11;
+    width: 20%; 
+}
+}
+
+.profile-text {
+  text-align: left; 
+  padding: 10px 30px 10px 20px;
+}
+ </style>
+
 <body>
 	<div class="wrapper">
 	    <div class="sidebar" data-background-color="brown" data-active-color="danger">
@@ -257,7 +299,7 @@
                 <div class="col-md-12 thumbnail">
                         
                         <div class="profile">
-                            <img align="left" class="image-banner img-responsive" src="../assets/img/saudi-hero.jpg" alt="Profile image example" style="max-height: 600px"/>
+                            <img align="left" class="image-banner img-responsive" src="../assets/img/saudi-hero.jpg" alt="Profile image example" />
 
                             <img align="left" class="image-profile thumbnail" src="../assets/img/faces/face-3.jpg" alt="profile image example" style="padding: -50px" />
                             <button class="btn btn-info btn-sm btn-fill pull-right user-btn">Support <i class="fa fa-plus" aria-hidden="true"></i></button>
